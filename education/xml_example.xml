@@ -1,0 +1,32 @@
+<person>
+    <id>1</id>
+    <first_name>John</first_name>
+    <last_name>Doe</last_name>
+    <email>john.doe@example.com</email>
+    <age>30</age>
+    <adress>
+        <city>New York</city>
+        <street>Main Street</street>
+        <zip>10001</zip>
+    </adress>
+</person>
+
+Запрос к API на получение информации о пользователе
+
+<request>
+    <action>get_user</action>
+    <user_id>123</user_id>
+</request>
+
+
+#Ответ от API:
+
+<response>
+    <status>success</status>
+    <user>
+        <id>123</id>
+        <first_name>John</first_name>
+        <last_name>Doe</last_name>
+        <email>john.doe@example.com</email>
+    </user>
+</response>
